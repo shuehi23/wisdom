@@ -1,0 +1,88 @@
+// Body
+$body-bg: #00000008;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$pink: #f66d9b;
+$pink_hover: #dc628b;
+
+// 緑(メインカラー)
+$color_main: #2c86f5;
+// ホバー時の緑(メインカラー)
+$color_main_hover: #2f72d8;
+// グレー
+$gray_lighter: #e4e4e4;
+$gray_light: #919aa2;
+$gray: #626b73;
+$gray_dark: #525961;
+// 黒
+$black_normal: #212529;
+$black_light: #46494c;
+// 白
+$white: #fff;
+
+$transition_speed: .3s;
+
+// font-size
+$font-size_xxs: 14px;
+$font-size_xs: 16px;
+$font-size_s: 18px;
+$font-size_m: 20px;
+$font-size_l: 24px;
+$font-size_xl: 30px;
+$font-size_xxl: 38px;
+$font-size_3l: 56px;
+
+// 余白
+$space_xs: 5px;
+$space_s: 10px;
+$space_m: 15px;
+$space_l: 20px;
+$space_xl: 30px;
+$space_xxl: 40px;
+$space_3l: 50px;
+$space_4l: 60px;
+$space_5l: 70px;
+$space_6l: 80px;
+
+// ボーダー
+// 黒のボーダー
+$border_black: solid 1px $black_normal;
+
+// グレーのボーダー
+$border_gray: solid 1px $gray_lighter;
+// グレーのボーダー(フォーカス時)
+$border_gray_focus: solid 1px $gray_light;
+// 太いグレーのボーダー
+$border_gray_bold: solid 4px $gray_lighter;
+
+// 波線のグレーのボーダー
+$dashed_border_gray: dashed 1px $gray_lighter;
+
+// 薄い青色のボーダー
+$border_blue_light: solid 1px $blue;
+
+// 青色のボーダー
+$border_blue: solid 1px $blue;
+
+// 赤色のボーダー(バリデーションエラー用)
+$border_red: solid 1px $red;
+
+// 角の丸み
+$radius: 1px;
+$radius_round: 2px;
+$radius_rounder: 2em;

@@ -1,0 +1,87 @@
+/* ====================================
+ component
+==================================== */
+/* ボタンを定義しています
+------------------------------------ */
+// 緑色ボタン
+.c-btn--blue {
+    background-color: $color_main !important;
+    border-color: $color_main !important;
+    padding: 0.375rem 0.75rem !important;
+
+    &:hover {
+        background-color: $color_main_hover !important;
+        border-color: $color_main_hover !important;
+        transition: all .3s;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+// いいねボタン
+.c-btn-like {
+    cursor: pointer;
+    font-size: 18px;
+
+    // 自分がいいねを押している時
+    &--on {
+        color: $pink;
+
+        &:hover {
+            color: $pink_hover;
+            text-decoration: none;
+            transition: all $transition_speed;
+
+            // ハートアイコンにもホバーイベントを指定
+            .c-icon--pink-heart {
+                color: $pink_hover;
+                transition: all $transition_speed;
+            }
+        }
+    }
+
+    // 自分がいいねを押してない時
+    &--off {
+        color: $gray_light;
+
+        &:hover {
+            color: $gray_dark;
+            text-decoration: none;
+            transition: all $transition_speed;
+
+            // ハートアイコンにもホバーイベントを指定
+            .c-icon--gray-heart {
+                color: $gray_dark;
+                transition: all $transition_speed;
+            }
+        }
+    }
+}
+
+// フレーズ削除ボタン
+.c-btn--delete {
+    border: none;
+    background-color: inherit;
+    color: $gray_light;
+    font-size: $font-size_s;
+    padding: 0;
+
+    &:hover {
+        color: $gray_dark;
+        transition: all $transition_speed;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
+
+// 戻るボタン
+.back-btn-area {
+    margin: 0 auto;
+    button:hover {
+        text-decoration: underline;
+    }
+
+}

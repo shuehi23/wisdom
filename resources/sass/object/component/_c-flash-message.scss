@@ -1,0 +1,19 @@
+/* ====================================
+ component
+==================================== */
+/* フラッシュメッセージを定義しています
+------------------------------------ */
+.c-flash-message {
+    background-color: $white;
+    border: $border_blue;
+    border-radius: $radius_round;
+    color: $blue;
+    font-weight: bold;
+    padding: $space_m;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}

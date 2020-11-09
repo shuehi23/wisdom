@@ -1,0 +1,20 @@
+/* ====================================
+component
+==================================== */
+/* 入力フォームを定義しています
+------------------------------------ */
+// 引用フレーズ用のtextarea
+.c-input--new-book {
+    height: 100px !important;
+}
+
+// 画像アップロードのフォーム
+.c-input--file {
+    line-height: 16px;
+    margin-bottom: $space_s;
+}
+
+// 紹介文用のtextarea
+.c-input--new-impression{
+    height: 140px !important;
+}

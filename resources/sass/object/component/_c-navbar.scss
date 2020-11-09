@@ -1,0 +1,64 @@
+/* ====================================
+ component
+==================================== */
+/* ナビゲーションを定義しています
+------------------------------------ */
+// 共通ナビゲーション
+.c-navbar {
+    &__nav {
+        flex-direction: row !important;
+        align-items: center;
+    }
+
+    &__link {
+        color: $gray;
+
+        @include mq(md) {
+            padding: 0.5rem !important;
+        }
+
+        &:hover {
+            color: $black_normal;
+            transition: all $transition_speed;
+        }
+    }
+
+}
+
+// カテゴリーナビ
+.c-navbar--category {
+    overflow-x: scroll !important;
+
+    &__item {
+        &.active {
+            border-bottom: solid 1px $black_normal;
+        }
+    }
+
+    &__link {
+        white-space: nowrap !important;
+
+        &.active {
+            color: $black_normal !important;
+        }
+    }
+}
+
+// 並び替えナビ
+.c-navbar--sort {
+    &__item {
+        &.active {
+            border-bottom: solid 1px $black_normal;
+        }
+    }
+
+    &__link {
+        white-space: nowrap !important;
+
+        &.active {
+            color: $black_normal !important;
+        }
+    }
+}
+
+

@@ -1,0 +1,25 @@
+/* ====================================
+ Project
+==================================== */
+/* 記事一覧を定義しています。
+==================================== */
+// 記事が存在しない場合
+.p-articles{
+   
+
+    &__empty {
+        font-size: $font-size_s;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    &__empty-text {
+        margin-bottom: $space_m;
+    }   
+    &__empty-link {
+        padding: $space_m !important;
+        display: inline-block;
+    }
+    
+}

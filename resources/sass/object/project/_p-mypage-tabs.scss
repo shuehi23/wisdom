@@ -1,0 +1,23 @@
+/* ====================================
+ project
+==================================== */
+/* マイページのタブを定義しています
+------------------------------------ */
+.p-mypage-tabs {
+    flex-wrap: nowrap !important;
+    margin-bottom: $font-size_xl;
+    white-space: nowrap;
+    overflow-x: scroll;
+
+    .active {
+        background-color: $white !important;
+    }
+
+    .nav-link {
+        color: $gray;
+
+        &.active{
+            color: $black_normal;
+        }
+    }
+}
