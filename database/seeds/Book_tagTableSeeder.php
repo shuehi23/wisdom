@@ -16,17 +16,14 @@ class Book_tagTableSeeder extends Seeder
 
         DB::table('book_tag')->insert([
             [
-                'id' => 1,
                 'book_id' => 1,
                 'tag_id' => 6,
             ],
             [
-                'id' => 2,
                 'book_id' => 2,
                 'tag_id' => 4,
             ],
             [
-                'id' => 3,
                 'book_id' => 3,
                 'tag_id' => 1,
             ]

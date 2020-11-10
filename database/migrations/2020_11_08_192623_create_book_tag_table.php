@@ -14,7 +14,6 @@ class CreateBookTagTable extends Migration
     public function up()
     {
         Schema::create('book_tag', function (Blueprint $table) {
-            $table->bigIncrements('id');
             $table->bigInteger('book_id')->unsigned();
             $table->integer('tag_id')->unsigned();
             $table->timestamps();
