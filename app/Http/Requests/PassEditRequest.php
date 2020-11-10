@@ -25,7 +25,7 @@ class PassEditRequest extends FormRequest
     {
         return [
             'old-password' => 'required',
-            'password' => 'required|string|min:8|confirmed',
+            'new-password' => 'required|string|min:8|confirmed',
         ];
     }
 }

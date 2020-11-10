@@ -19,13 +19,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ secure_asset('/img/favicon.ico') }}">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
 </head>
 <body class="l-body l-flex">
     <div id="app" class="l-wrapper l-flex">
@@ -36,7 +36,7 @@
 
                     <div class="c-logo">
                         <a class="navbar-brand" href="{{ route('books') }}" >
-                            <img src="{{ asset('/img/icon-cutout.png') }}" alt="Wisdom" class="c-logo__img">
+                            <img src="{{ secure_asset('/img/icon-cutout.png') }}" alt="Wisdom" class="c-logo__img">
                         </a>
                     </div>
 
