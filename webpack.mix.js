@@ -14,4 +14,14 @@ require('laravel-mix-polyfill');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css')
+   .options({
+      autoprefixer: {
+         options: {
+            browsers: [
+               'last 2 versions',
+               'ie 10-11',
+            ]
+         }
+      }
+   });
