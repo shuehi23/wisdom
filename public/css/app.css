@@ -17339,9 +17339,8 @@ li {
 .c-card__phrase {
   color: #46494c;
   font-weight: bold;
-  position: absolute;
-  left: 50px;
-  top: 60px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 479px) {

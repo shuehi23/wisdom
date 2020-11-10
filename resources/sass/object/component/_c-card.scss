@@ -65,9 +65,8 @@
     &__phrase {
         color: $black_light;
         font-weight: bold;
-        position: absolute;
-        left: 50px;
-        top: 60px;
+        margin-left: $space_l;
+        margin-top: $space_xs;
 
         @include mq(sm) {
             font-size: $font-size_xxs;
