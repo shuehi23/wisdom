@@ -30,6 +30,7 @@ class CreateBookRequest extends FormRequest
             'impression' => 'nullable|string|max:255',
             'tag_ids' => 'required|array',
             'tag_ids.*' => 'integer',
+            'detail' => 'nullable|string|max:200',
             
         ];
     }

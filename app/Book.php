@@ -12,7 +12,7 @@ class Book extends Model
     protected $table = 'books';
 
     // テーブルカラム名を指定する
-     protected $fillable = ['user_id', 'title', 'title_img_path', 'phrase', 'impression', 'tag_ids[]'];
+     protected $fillable = ['user_id', 'title', 'title_img_path', 'phrase', 'impression', 'tag_ids[]', 'detail',];
 
     // usersテーブルに対してのリレーション 
     public function user()
