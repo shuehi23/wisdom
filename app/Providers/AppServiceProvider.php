@@ -31,6 +31,9 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
-        
+        // Herokuでhttpsを強制する
+        if (\App::environment('production')) {
+            \URL::forceScheme('https');
+        }
     }
 }
