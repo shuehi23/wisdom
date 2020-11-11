@@ -148,7 +148,7 @@
          <!-- フッター -->
          <footer class="l-footer p-footer l-flex">
              <div class="container footer-container">
-                 <p class="text-muted">Copyright &copy;Wisdom! All Rights Reserved.</p>
+                 <p class="text-muted">Copyright &copy;Wisdom_up!! All Rights Reserved.</p>
                  
              </div>
          </footer>
