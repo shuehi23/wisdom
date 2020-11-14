@@ -20,6 +20,6 @@ HTML・Sass(SCSS)・Laravel・Vue.js・MySQL
 ・フラッシュメッセージ表示  
 
 # 製作者
-[shuhei23](https://github.com/shuehi23)
+[shuhei18](https://github.com/shuhei18)
 
 
